@@ -83,6 +83,7 @@ class MoneyFormatter {
         this.amount -= (amount / 100) * this.amount;
         break;
 
+      // ignore: unreachable_switch_default
       default:
         throw "Unknown calculation type.";
     }
